@@ -11,49 +11,63 @@ header{
 }
 h1{
     text-align: center;
-    font-size: 3em;
-    padding-left: 250px;
-    font-family: x;
+    font-size: 4em;
+    font-family: 'Cutive Mono', monospace;
 }
 h2{
     text-align: center;
-    font-size:2em;
-    padding: x;
+    font-size:3em;
     margin:50px ;
-    font-family: x;
-    color: #000; 
+    font-family: 'DM Serif Display', serif;
+    color: #000;
 }
 p{
     font-size:1.3em;
     text-align: right;
     padding-left: 250px;
     padding-right: 250px;
+    font-family: 'Cutive Mono', monospace;
 }
 article{
-    margin-left:200px ;
-    margin-right:150px ;
+    margin-left:130px ;
+    margin-right:130px ;
     padding: 0 50px;
     display: inline-block;
 }
 img{
     height: 150px;
     width: 200px;
-    padding: 0 5px 0 5px
+    padding: 0 5px 5px 5px
 }
-img:hover{
+
+li:hover{
+    background-color: #426bad;
+    color:#ffffff;
+}
+a{
+    text-decoration: none;
+    color:#12284b;
 }
 .nav{
-    width: 50%;
+    width: 80%;
+    height: 100px;
+    margin-left: 320px;
+    margin-right: 100px;
 }
 .nav li{
-    padding: 10px;
-    border:4px solid;
-    border-radius: x;
+    font-family: 'Cutive Mono', monospace;
+    width: 70px;
+    height: 15px;
+    padding: 20px;
+    margin-right:7px;
+    text-align: center;
+    border-radius: 20px;
     display:inline-block;
+    border: 3px solid #426bad;
 }
 .picture-box{
-    margin-left:200px ;
-    margin-right:150px ;
+    margin-left:130px ;
+    margin-right:130px ;
     padding: 0 50px;
     display: inline-block;
 }
